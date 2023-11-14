@@ -41,6 +41,9 @@ public class RelationalOperator {
 
     // open the gitbash
     // come to the folder cd ... javabatch7
-    //javabatch7
+    //javabatch7(master)
+    //git add*
+    //git commit -m "added two new files arithmatic and relation operator"
+    // git push
 
     }
