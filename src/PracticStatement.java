@@ -1,5 +1,3 @@
-package conditionalStatement;
-
 import java.util.Scanner;
 
 public class PracticStatement {

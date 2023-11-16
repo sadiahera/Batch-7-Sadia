@@ -60,7 +60,7 @@ else if (mark == 80){
  }
 
 
-    public static void main(String[] args) {
+
 
     }
 
@@ -70,4 +70,4 @@ else if (mark == 80){
 
 
 
-}
+
