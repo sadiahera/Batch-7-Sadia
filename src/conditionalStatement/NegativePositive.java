@@ -24,6 +24,7 @@ public class NegativePositive {
 
     public static void main(String[] args) {
      NegativePositive obj = new NegativePositive();
+     obj.positiveNegative();
 
     }
 }

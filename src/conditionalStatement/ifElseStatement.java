@@ -59,6 +59,10 @@ else if (mark == 80){
     }
  }
 
+    public static void main(String[] args) {
+        ifElseStatement obj = new ifElseStatement();
+        obj.practice();
+    }
 
 
 

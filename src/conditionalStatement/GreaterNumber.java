@@ -6,7 +6,7 @@ public class GreaterNumber { // user-defined class
 
     // take two numbers from user and print the greater number.
 
-    public void greaterNumber(){
+    public void greaterNumber(int x, int y, int z){
         Scanner scan = new Scanner(System.in); // Pre-defined class
         int a = scan.nextInt();
         System.out.println("The value of a is" +a);
@@ -31,7 +31,7 @@ public class GreaterNumber { // user-defined class
 
     public static void main(String[] args) {
         GreaterNumber obj = new GreaterNumber();
-        obj.greaterNumber();
+        obj.greaterNumber(4,6,8);
 
     }
 }

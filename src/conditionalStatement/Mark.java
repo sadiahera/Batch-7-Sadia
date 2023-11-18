@@ -24,24 +24,38 @@ public class Mark {
 
     }
 
-    public static void main(String[] args) {
+    public void mark() {
         Scanner scan = new Scanner(System.in);
         int mark = scan.nextInt();
-        boolean b1 = mark < 45;
-        boolean b = b1;
+
         if (mark < 25){
             System.out.println("The student go t F");
         }
-        else if (mark == 25) {
+        if ((mark == 25)||(mark<45)) {
             System.out.println("The student got E");
         }
 
-        else if (mark == 60){
+         if
+         ((mark == 45) ||(mark<50)){
+            System.out.println("The student got D");
+        }
+         if ((mark == 50) ||(mark<60)){
             System.out.println("The student got C");
         }
-        else if (mark == 80){
+         if ((mark == 60) ||(mark<80)){
             System.out.println("The student got B");
         }
+        if ((mark == 80) ||(mark>80)){
+            System.out.println("The student got A");
+        }
+
+
+
+    }
+
+    public static void main(String[] args) {
+        Mark obj =new Mark();
+        obj.mark();
 
     }
 }

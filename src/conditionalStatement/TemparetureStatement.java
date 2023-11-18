@@ -28,6 +28,8 @@ public class TemparetureStatement {
     }
 
     public static void main(String[] args) {
+        TemparetureStatement obj = new TemparetureStatement();
+        obj.tempareture();
 
     }
 }
