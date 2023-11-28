@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class GreaterNumber { // user-defined class
 
-    // take two numbers from user and print the greater number.
+    /* take two numbers from user and print the greater number.*/
 
     public void greaterNumber(int x, int y, int z){
         Scanner scan = new Scanner(System.in); // Pre-defined class

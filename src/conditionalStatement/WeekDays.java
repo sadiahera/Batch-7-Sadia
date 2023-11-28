@@ -3,8 +3,10 @@ package conditionalStatement;
 import java.util.Scanner;
 
 public class WeekDays {
-    // write a java function and use the parameter of an integer between 1 and 7.
-    // it displays the weekday name.
+    /* write a java function and use the parameter of an integer between 1 and 7.
+   it displays the weekday name.
+
+     */
 
     public void weekdays(int a) {
 

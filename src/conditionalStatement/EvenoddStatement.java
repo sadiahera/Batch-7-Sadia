@@ -3,8 +3,12 @@ package conditionalStatement;
 import java.util.Scanner;
 
 public class EvenoddStatement {
-// write a java function and take an int parameter and determine thet the number is devided
-    //by 2 or not. if devided by 2 that is even else the number is odd.
+/* write a java function and take an int parameter and determine thet the number is devided
+    by 2 or not. if devided by 2 that is even else the number is odd.
+
+    // when we declare the variable inside method signature. we initialize the variable
+    //while we call method signature (int num = parametre)*/
+
     public void evenoddStatement () {
 
 
