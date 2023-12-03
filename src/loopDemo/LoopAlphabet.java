@@ -9,7 +9,7 @@ public class LoopAlphabet {
         int i =0;
         for (i='A' ; i<='Z'; i++);{
 
-            System.out.println("The alphabet from A to Z" + i);
+            System.out.println(i);
         }
 
 

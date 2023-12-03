@@ -9,9 +9,26 @@ public class LoopMyname {
 
 
     public void Mynamevowels(){
-        char ai = 'i';
-        if ((ai == 'a' || ai =='i'));{
-            System.out.println(ai + "is vowel");
+        // a,e,i,o,u, vowels
+       String name= "SadiaHera";
+        int lenthofName = name.length();
+
+            System.out.println(lenthofName);
+
+            char sixthLetter = name.charAt(5);
+        System.out.println(sixthLetter);
+
+        char ninthLetter = name.charAt(8);
+        System.out.println(ninthLetter);
+
+        char firstLetter=name.charAt(10);
+        System.out.println(firstLetter);
+        for (int i=0; i< name.length(); i++){
+
+            if (name.charAt(i)== 'a' || name.charAt(i)== 'e' || name.charAt(i)== 'i' ||
+                    name.charAt(i)== 'o' || name.charAt(i)== 'u' ){
+                System.out.println(name.charAt(i) + "is vowel");
+            }
         }
 
 
