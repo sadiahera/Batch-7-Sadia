@@ -6,12 +6,16 @@ public class OverLoadingDemo {
     1.different number of parameter
     2.different data type
     3.different order of parameter
+
+    *Overloading is called compile time polymarphism
      */
 
     public void add(int a, int b){
+
         System.out.println(a+b);
     }
     public void add(int a, int b, int c){
+
         System.out.println(a+b+c);
     }
 
@@ -20,6 +24,7 @@ public class OverLoadingDemo {
     }
 
     public void add(float b, int a){
+
         System.out.println(a+b);
     }
 
